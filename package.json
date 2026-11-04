@@ -1,0 +1,24 @@
+{
+  "name": "demo-ota-status",
+  "version": "1.0.0",
+  "description": "Synthetic demo: over-the-air update status service",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^24.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.9.0"
+  }
+}
